@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
 .container{
     position: relative;
     width: 1440px;
@@ -21,7 +25,7 @@
     left: 28px;
     top: 124px;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -48,7 +52,7 @@
     left: 28px;
     top: 166px;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -69,9 +73,9 @@
     border: 0;
     
     
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     color: #F7F7F7;
@@ -90,7 +94,7 @@
     left: 23px;
     top: 21px;
     /* background-color: #6bccbc; */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
