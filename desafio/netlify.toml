@@ -3,9 +3,6 @@ base = "."
 command = "npm run build"
 publish = "./build/"
 
-[build.environment]
-REACT_APP_API_URL = "https://meu-endereco-producao.com.br/api"
-
 #https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router 
 [[redirects]]
   from = "/*"
