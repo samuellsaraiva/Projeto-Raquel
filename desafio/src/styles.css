@@ -32,18 +32,19 @@
     line-height: 34px;
 
     color: #5D405C;
-    /* animation: flipTitle 1s; */
+    animation: flipTitle 1s; 
     
 }
 
-/* @keyframes flipTitle {
+
+@keyframes flipTitle {
     from{
         transform: rotateX(90deg);
     }
     to{
         transform: rotateX(0deg);
     }
-} */
+}
 
 .subTitle{
     position: absolute;
@@ -72,7 +73,6 @@
     border-radius: 10px;
     border: 0;
     
-    
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -87,59 +87,8 @@
     transform: scale(1.1);
 }
 
-.titleGraph{
-    position: absolute;
-    width: 55px;
-    height: 20px;
-    left: 23px;
-    top: 21px;
-    /* background-color: #6bccbc; */
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5D405C;
-    
+.main{
+    position: relative;
 }
 
-.barGraph{
-    position: absolute;
-    width: 680px;
-    height: 359px;
-    left: 28px;
-    top: 228px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.scatterGraph{
-    position: absolute;
-    width: 680px;
-    height: 359px;
-    left: 736px;
-    top: 228px;
-    
-    background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-
-.info{
-    position: absolute;
-    left: 70px;
-    right: 10.94%;
-    top: 10.94%;
-    bottom: 10.94%;
-    background-color: rgba(255, 255, 255, 0);
-    border: 0;
-
-    cursor: pointer;
-    transition: transform 0.5;
-}
-.info:hover{
-    transform: scale(1.2);
-}
 

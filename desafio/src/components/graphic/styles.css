@@ -1,0 +1,76 @@
+/*Estilo dos gráficos*/
+
+.boxBar{
+    position: absolute;
+    width: 680px;
+    height: 359px;
+    left: 28px;
+    top: 228px;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 680px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    
+}
+.boxScatter{
+    position: absolute;
+    width: 680px;
+    height: 359px;
+    left: 736px;
+    top: 228px;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 680px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+.titleGraph{
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    left: 23px;
+    top: 21px;
+    /* background-color: #6bccbc; */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5D405C;
+}
+
+.graph{
+    width: 600px;
+    height: 320px;
+    margin: 35px 35px;
+}
+
+.graphScatter{
+    width: 600px;
+    height: 297px;
+    margin: 35px 35px;
+}
+
+.info{
+    position: absolute;
+    left: 70px;
+    right: 10.94%;
+    top: 0;
+    bottom: 10.94%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    border-radius: 10px;
+
+    width: 25px;
+    height: 25px;
+
+    
+    cursor: pointer;
+    transition: transform 0.5;
+}
+.info:hover{
+    transform: scale(1.2);
+}
+
+
