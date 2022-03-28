@@ -5,8 +5,8 @@
 .container{
     position: relative;
     width: 1440px;
-    height: 1024px;
-    background: #F7F7F7;
+    height: 100vh;
+    background: #eaf5f8;
 }
 
 .topBar{
@@ -15,7 +15,7 @@
     height: 91px;
     left: 0px;
     top: 0px;
-    background: #CEC6CE;
+    background: linear-gradient(#4dddb9, #4dc7dd)
 }
 
 .title{
@@ -31,7 +31,7 @@
     font-size: 28px;
     line-height: 34px;
 
-    color: #5D405C;
+    color: #091758;
     animation: flipTitle 1s; 
     
 }
@@ -69,7 +69,7 @@
     height: 40px;
     left: 1316px;
     top: 135px;
-    background: #5D405C;
+    background: #091758;
     border-radius: 10px;
     border: 0;
     
